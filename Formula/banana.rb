@@ -1,9 +1,9 @@
 class Banana < Formula
     desc "Banana"
     homepage "https://github.com/vaadata-martina/"
-    url "https://github.com/vaadata-martina/banana/releases/download/v1.0.4/banana-1.0.4.tar.gz"
-    sha256 "69c5a3c6bf54fb272bf685d2ae4bb920c802eb5ec1322fea4c2165d10c71cbdf"
-    version "1.0.4"
+    url "https://github.com/vaadata-martina/homebrew-banana/releases/download/v1.0.5/banana-1.0.5.tar.gz"
+    sha256 "efaf6b989960df627682487fadb39f883eabba6df26a40192fdfd4335544d85c"
+    version "1.0.5"
 
     def install
         bin.install Dir["*"]
